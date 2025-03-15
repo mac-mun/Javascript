@@ -4,6 +4,8 @@ const { ethers } = require('ethers');
 const { JsonRpcProvider } = require('ethers')
 const provider = new JsonRpcProvider("https://mainnet.infura.io/v3/21c3f6fa7aff432babdd41338d46f67f");
 
+// This comment is irrelevant
+
 // Function to Fetch and Display Transactions
 async function getTransactions(address) {  // Fixed "Transcations" to "Transactions"
     try {
